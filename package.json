@@ -1,0 +1,26 @@
+{
+  "name": "beanify-env-options",
+  "version": "1.0.0",
+  "description": "beanify beanify-env-options",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.test.js --100 --cov --coverage-report=text",
+    "unit": "tap test/*.test.js --100 --cov --coverage-report=lcov"
+  },
+  "keywords": [
+    "beanify",
+    "beanify-env-options"
+  ],
+  "author": "beanjs",
+  "license": "MIT",
+  "dependencies": {
+    "env-schema": "^1.1.0"
+  },
+  "devDependencies": {
+    "tap": "^14.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beanjs-framework/beanify-env-options.git"
+  }
+}
