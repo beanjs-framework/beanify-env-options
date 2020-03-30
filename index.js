@@ -21,8 +21,9 @@ const envOptions = {
             BEANIFY_NATS_TOKEN: {
                 type: 'string'
             },
-            BEANIFY_LOG_LEVEL: {
-                enum: ['fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent']
+            BEANIFY_PINO_LEVEL: {
+                enum: ['fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent'],
+                default:"debug"
             }
         }
 

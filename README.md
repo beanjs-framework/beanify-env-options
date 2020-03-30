@@ -13,7 +13,7 @@ npm i beanify-env-options
 * ```BEANIFY_NATS_USER```:config opts.nats.user
 * ```BEANIFY_NATS_PASS```:config opts.nats.pass
 * ```BEANIFY_NATS_TOKEN```:config opts.nats.token
-* ```BEANIFY_LOG_LEVEL```:config opts.log.level;```enum:'fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent'```
+* ```BEANIFY_PINO_LEVEL```:config opts.log.level;```enum:'fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent'```
 
 ## usage
 ```
